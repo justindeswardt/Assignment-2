@@ -1,0 +1,277 @@
+* {
+  font-family: 'Montserrat';
+}
+
+body {
+  background-color: #f2f2f2;
+  font-size: 16px;
+  margin: 0px;
+}
+
+.mainnav-text {
+  color: #666666;
+  border: none;
+  font-size: 16px;
+  padding-left: 8px;
+  padding-right: 48px;
+}
+
+a:link {
+  color: #666666;
+  border: none;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+#login a {
+  color: #1975dc;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#login a:hover {
+  text-decoration: underline;
+}
+
+#termprivacy a {
+  color: #1975dc;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#termprivacy a:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  float: left;
+  font-family: 'Montserrat';
+  color: #0f6fdb;
+  font-size: 18px;
+  padding: 5px;
+  margin-left: 30px;
+  font-weight: bolder;
+}
+
+.topnavbg {
+  background-color: #ffffff;
+  width: 100%;
+  height: 90px;
+  position: relative;
+  margin: 0 auto 0;
+  margin-top: 5px;
+}
+
+.topnav-right {
+  float: right;
+  color: #666666;
+  font-size: 12px;
+  padding: 16px;
+}
+
+.icon-wrapper {
+  color: #989898;
+}
+
+.search-icon {
+  margin-top: 16px;
+  padding-right: 35px;
+}
+
+.form-container {
+  position: absolute;
+  background-color: white;
+  position: absolute;
+  width: 660px;
+  height: 650px;
+  left: 38%;
+  top: 20%;
+}
+
+.content {
+  padding: 16px;
+}
+
+.form-select {
+  border: 2px solid #ebeff3;
+  height: 40px;
+  padding: 4px;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  padding: 10px;
+}
+
+.form-input {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #d9d9d9;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 24px;
+  padding: 10px;
+  background-color: #ffffff;
+  margin: 10px;
+  position: relative;
+}
+
+.form-input span.icon-wrapper {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 8px;
+  top: 12px;
+  display: inline-block;
+  text-align: center;
+}
+
+label {
+  margin-left: 10px;
+  color: black;
+}
+
+.form-input span.icon-wrapper i {
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.flex-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flex-wrapper .password-flex {
+  width: 49%;
+}
+
+.form-password {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #d9d9d9;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 40px;
+  background-color: #ffffff;
+  margin-top: 10px;
+  flex: 1;
+  padding-left: 10px;
+}
+
+.line-break {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+}
+
+.line-break .line {
+  height: 2px;
+  display: inline-block;
+  background: #e1e1e1;
+  flex: 1;
+}
+
+.line-break .word {
+  width: 24px;
+  display: inline-block;
+  margin: 0 8px;
+  font-weight: bold;
+}
+
+.btn-create {
+  border: none;
+  height: 50px;
+  display: block;
+  background: #0f6fdb;
+  color: #FFF;
+  padding: 8px;
+  text-align: center;
+  margin: 24px 10px 24px 10px;
+  width: 608px;
+  font-size: 16px;
+}
+
+.btn-create:hover {
+  background: #0154b2;
+  color: #FFF;
+}
+
+.form-select {
+  width: 48%;
+}
+
+.flex-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flex-wrapper .form-input {
+  width: 217px;
+  margin-right: 16px;
+}
+
+input, select {
+  background: none !important;
+  border: none;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  font-size: 14px;
+  color: #acb4bc;
+}
+
+input[type=checkbox] {
+  -webkit-appearance: none;
+  background-color: #5dcb84 !important;
+  color: #ffffff !important;
+  border: none !important;
+  padding: 9px;
+  border-radius: 3px;
+  width: auto !important;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+::placeholder {
+  color: #c3c3c3;
+}
+
+h1 {
+  font-size: 24px;
+  margin-top: 24px;
+  margin-left: 24px;
+  margin-bottom: 16px;
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
+}
+
+.getstarted-btn {
+  background-color: #0f6fdb;
+  color: #ffffff;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-right: 20px;
+  width: 150px;
+  height: 40px;
+}
+
+.getstarted-btn:hover {
+  background-color: #0154b2;
+  color: #ffffff;
+}
+
+.subscribe-text {
+  font-size: 14px;
+}
